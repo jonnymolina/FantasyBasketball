@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=avgPts\ avgTO\ fgPct\ ftPct\ avg3pt\ avgREB\ avgAST
+comment0.target=BasketballStats(double,\ double,\ double,\ double,\ double,\ double,\ double)
+comment0.text=\nConstructor\ for\ BasketballStats\ objects\ that\ initializes\ all\ instance\ variables\nincluding\ its\ super\ class's\ instance\ variables.\n\n@param\ avPts\ \ -\ Average\ points.\n@param\ avgTO\ \ -\ Average\ turnovers.\n@param\ fgPct\ \ -\ Field\ goal\ percentage\n@param\ ftPct\ \ -\ Free\ throw\ percentage.\n@param\ avg3pt\ -\ Average\ number\ of\ 3\ pointers\ per\ game.\n@param\ avgREB\ -\ Average\ number\ of\ rebounds\ per\ game.\n@param\ avgAST\ -\ Average\ number\ of\ assists\ per\ game.\n\n
+comment1.target=double\ getFG()
+comment1.text=\ngetFG\n\nQuery\ method\ for\ the\ field\ goal\ percentage.\n\n@return\ The\ field\ goal\ percentage.\n\n
+comment2.target=double\ getFT()
+comment2.text=\ngetFT\n\nQuery\ method\ for\ the\ free\ throw\ percentage.\n\n@return\ The\ free\ throw\ percentage.\n\n
+comment3.target=double\ get3PT()
+comment3.text=\nget3PT\n\nQuery\ method\ for\ average\ number\ of\ 3\ pointers\ per\ game.\n\n@return\ The\ average\ number\ of\ 3\ pointers\ per\ game.\n\n
+comment4.target=double\ getREB()
+comment4.text=\ngetREB\n\nQuery\ method\ for\ the\ average\ number\ of\ rebounds\ per\ game.\n\n@return\ The\ average\ number\ of\ rebounds\ per\ game.\n\n
+comment5.target=double\ getAST()
+comment5.text=\ngetAST\n\nQuery\ method\ for\ the\ average\ number\ of\ assists\ per\ game.\n\n@return\ The\ average\ number\ of\ assists\ per\ game.\n\n
+comment6.target=String\ toString()
+comment6.text=\ntoString\n\nOverrides\ toString\ method\ to\ show\ the\ stats\ all\ in\ one\ line.\n\n@return\ String\ of\ Basketball\ Stats\ on\ one\ line.\n\n
+numComments=7

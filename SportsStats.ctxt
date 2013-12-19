@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=pts\ to
+comment0.target=SportsStats(double,\ double)
+comment0.text=\nConstructor\ for\ SportsStats\ objects\ that\ initializes\ avgPts\ and\ avgTO.\n\n@param\ pts\ -\ Average\ points.\n@param\ to\ \ -\ Average\ turnovers.\n\n
+comment1.params=pts
+comment1.target=void\ setPts(double)
+comment1.text=\nsetPts\n\nSet\ the\ avgPts\ instance.\n\n@param\ pts\ -\ Average\ points.\n\n
+comment2.params=to
+comment2.target=void\ setTO(double)
+comment2.text=\nsetTO\n\nSet\ the\ avgTO\ instance.\n\n@param\ to\ -\ Average\ turnovers.\n\n
+comment3.target=double\ getPts()
+comment3.text=\ngetPts\n\nQuery\ method\ for\ the\ avgPts.\n\n@return\ The\ points\ average.\n\n
+comment4.target=double\ getAvgTO()
+comment4.text=\ngetAvgTO\n\nQuery\ method\ for\ the\ avgTO.\n\n@return\ The\ turnover\ average.\n\n
+comment5.target=String\ toString()
+comment5.text=\ntoString\n\nOverrides\ toString\ method\ to\ show\ average\ points\ and\ turnovers.\n\n@return\ String\ of\ the\ average\ poitns\ and\ turnovers.\n\n
+numComments=6

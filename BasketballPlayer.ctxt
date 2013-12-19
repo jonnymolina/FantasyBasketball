@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=BasketballPlayer()
+comment0.text=\nDefault\ constructor\ for\ objects\ of\ class\ BasketballPlayer.\n\n
+comment1.params=name\ team\ pNumber\ pPosition\ pStats
+comment1.target=BasketballPlayer(String,\ Team,\ int,\ String,\ BasketballStats)
+comment1.text=\nConstructor\ for\ objects\ of\ class\ BasketballPlayer\ that\ initializes\ BasketballPlayer\nwith\:\ Basketballplayer's\ name,\ team\ information,\ number,\ position,\ and\ stats.\n\n@param\ name\ \ \ \ \ \ -\ Basketballplayer's\ name.\n@param\ team\ \ \ \ \ \ -\ Basketballplayer's\ team\ information.\n@param\ pNumber\ \ \ -\ BasketballPlayer's\ number.\n@param\ pPosition\ -\ BasketballPlayer's\ positon.\n@param\ pStats\ \ \ \ -\ BasketballPlayer's\ personal\ statistics.\n\n
+comment2.params=name\ team\ pNumber\ pPosition\ avgPts\ avgTO\ fgPCT\ ftPCT\ avg3PT\ avgReb\ avgAst
+comment2.target=BasketballPlayer(String,\ Team,\ int,\ String,\ double,\ double,\ double,\ double,\ double,\ double,\ double)
+comment2.text=\nConstructor\ for\ objects\ of\ class\ BasketballPlayer\ that\ initializes\ BasketballPlayer\nwith\:\ Basketballplayer's\ name,\ team\ information,\ number,\ position,\ and\ individual\ stats.\n\n@param\ name\ \ \ \ \ \ -\ Basketballplayer's\ name.\n@param\ team\ \ \ \ \ \ -\ Basketballplayer's\ team\ information.\n@param\ pNumber\ \ \ -\ BasketballPlayer's\ number.\n@param\ pPosition\ -\ BasketballPlayer's\ positon.\n@param\ pStats\ \ \ \ -\ BasketballPlayer's\ personal\ statistics.\n@param\ avgPts\ \ -\ Average\ points.\n@param\ avgTO\ \ -\ Average\ turnovers.\n@param\ ftPct\ \ -\ Free\ throw\ percentage.\n@param\ avg3pt\ -\ Average\ number\ of\ 3\ pointers\ per\ game.\n@param\ avgREB\ -\ Average\ number\ of\ rebounds\ per\ game.\n@param\ avgAST\ -\ Average\ number\ of\ assists\ per\ game.\n\n
+comment3.params=player
+comment3.target=BasketballPlayer(BasketballPlayer)
+comment3.text=\nConstructor\ used\ to\ make\ deep\ copies\ of\ BasketballPlayer\ objects.\n\n@param\ player\ -\ Basketball\ player.\n\n
+comment4.target=int\ getPlayerNumber()
+comment4.text=\ngetPlayerNumber\n\nQuery\ method\ for\ the\ BasketballPlayer's\ number.\n\n@return\ The\ number\ of\ the\ BasketballPlayer.\n\n
+comment5.target=String\ getPlayerPosition()
+comment5.text=\ngetPlayerPosition\n\nQuery\ method\ for\ the\ BasketballPlayer's\ position.\n\n@return\ The\ position\ of\ the\ BasketballPlayer.\n\n
+comment6.target=BasketballStats\ getBBallStats()
+comment6.text=\ngetBBallStats\n\nQuery\ method\ for\ the\ BasketballPlayer's\ personal\ statistics.\n\n@return\ The\ stats\ of\ the\ BasketballPlayer.\n\n
+comment7.params=player
+comment7.target=boolean\ isSamePosition(BasketballPlayer)
+comment7.text=\nisSamePosition\n\nChecks\ if\ two\ players\ have\ the\ same\ basketball\ position.\n\n@return\ True\ if\ same\ position.\n\n
+comment8.target=String\ toString()
+comment8.text=\ntoString\n\nOverrides\ toString\ method\ to\ add\ the\ basketball\ player's\ position\ and\ stats.\n\n@return\ String\ of\ the\ Basketball\ Player's\ position\ and\ stats.\n\n
+numComments=9

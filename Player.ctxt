@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Player()
+comment0.text=\nDefault\ constructor\ for\ objects\ of\ class\ Player.\n\n
+comment1.params=pName\ tTeam
+comment1.target=Player(String,\ Team)
+comment1.text=\nConstructor\ for\ objects\ of\ class\ Player\ that\ initializes\ Player\nwith\ the\ given\ player\ name\ and\ Team\ object.\n\n@param\ pName\ -\ Name\ of\ the\ player.\n@param\ team\ -\ Team\ object,\ contains\ team\ information.\n\n
+comment2.target=String\ getPlayerName()
+comment2.text=\nQuery\ method\ for\ the\ name\ of\ the\ player.\n\n@return\ The\ name\ of\ the\ player.\n\n
+comment3.target=Team\ getTeam()
+comment3.text=\nQuery\ method\ for\ the\ player's\ team.\n\n@return\ The\ player's\ team.\n\n
+comment4.target=String\ toString()
+comment4.text=\nOverrides\ toString\ method\ to\ show\ the\ Player's\ name\ and\ team.\n\n@return\ String\ of\ "Name,\ City\ Team\\n".\n\n
+numComments=5

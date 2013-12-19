@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=FantasyTeam()
+comment0.text=\nDefault\ constructor\ for\ FantasyTeam\ objects.\n\n
+comment1.params=newPlayer
+comment1.target=FantasyTeam(BasketballPlayer)
+comment1.text=\nConstructor\ for\ FantasyTeam\ and\ adds\ the\ BasketballPlayer\ to\ the\ list.\n\n@param\ newPlayer\ -\ Adds\ a\ new\ BasketballPlayer\ to\ the\ list.\n\n
+comment2.target=ArrayList<BasketballPlayer>\ getTeam()
+comment2.text=\ngetTeam\n\nQuery\ method\ for\ a\ deep\ copy\ of\ the\ ArrayList\ of\ BasketballPlayers.\n\n@return\ The\ ArrayList\ of\ BasketballPlayers\ (deep\ copy).\n\n
+comment3.params=newPlayer
+comment3.target=boolean\ addPlayer(BasketballPlayer)
+comment3.text=\naddPlayer\n\nAdds\ a\ player\ to\ the\ Fantasy\ Team\ and\ returns\ true\ if\ successful.\n\n@param\ player\ -\ BasketballPlayer\ object\ being\ added\ to\ the\ team.\n@return\ True\ if\ player\ added\ successful.\n\n
+comment4.params=player
+comment4.target=boolean\ checkValid(BasketballPlayer)
+comment4.text=\ncheckValid\n\nChecks\ if\ position\ different\ than\ the\ others.\ True\ if\ it\ is\ valid.\n\n@param\ player\ -\ BasketballPlayer\ object\ being\ added\ to\ the\ team.\n@return\ True\ if\ valid\ move.\n\n
+comment5.target=int\ getSize()
+comment5.text=\nsize\n\nQuery\ method\ for\ the\ size\ of\ the\ team.\n\n@return\ The\ size\ of\ the\ team.\n\n
+comment6.target=String\ toString()
+comment6.text=\ntoString\n\nOverrides\ toString\ method\ to\ append\ the\ players\ on\ the\ team\nand\ their\ position\ together.\n\n@return\ String\ of\ the\ players\ on\ the\ team\ and\ their\ positions.\n\n
+numComments=7

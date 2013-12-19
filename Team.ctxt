@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=teamName\ cityName\ confName\ divName\ rankNum
+comment0.target=Team(String,\ String,\ String,\ String,\ int)
+comment0.text=\nConstructor\ for\ objects\ of\ class\ Team\ that\ initializes\ the\ team\ name.\n\n@param\ teamName\ -\ Team's\ name.\n@param\ cityName\ -\ Team's\ city.\n@param\ confName\ -\ Team's\ conference.\n@param\ divName\ \ -\ Team's\ division.\n@param\ rankNum\ \ -\ Team's\ rank.\n\n
+comment1.target=String\ getTeam()
+comment1.text=\ngetTeam\n\nQuery\ method\ for\ the\ name\ of\ the\ team.\n\n@return\ The\ name\ of\ the\ team.\n\n
+comment2.target=String\ getCity()
+comment2.text=\ngetCity\n\nQuery\ method\ for\ the\ name\ of\ the\ city.\n\n@return\ The\ name\ of\ the\ city.\n\n
+comment3.target=String\ getConference()
+comment3.text=\ngetConference\n\nQuery\ method\ for\ the\ name\ of\ the\ conference.\n\n@return\ The\ name\ of\ the\ conference.\n\n
+comment4.target=String\ getDivision()
+comment4.text=\ngetDivision\n\nQuery\ method\ for\ the\ name\ of\ the\ division.\n\n@return\ The\ name\ of\ the\ division.\n\n
+comment5.target=int\ getRank()
+comment5.text=\ngetRank\n\nQuery\ method\ for\ the\ rank\ of\ the\ team\n\n@return\ The\ team's\ rank.\n\n
+numComments=6

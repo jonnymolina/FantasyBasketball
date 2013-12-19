@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=name
+comment0.target=FantasyPlayer(String)
+comment0.text=\nConstructor\ for\ FantasyPlayer\ objects\ and\ initializes\ the\ player's\ name.\n\n@param\ name\ -\ Fantasy\ Players\ name.\n\n
+comment1.params=player
+comment1.target=boolean\ addPlayer(BasketballPlayer)
+comment1.text=\nAdds\ a\ player\ to\ the\ Fantasy\ Team\ and\ returns\ true\ if\ successful.\n\n@param\ player\ -\ BasketballPlayer\ object\ being\ added\ to\ the\ team.\n@return\ True\ if\ player\ added\ successful.\n\n
+comment2.target=int\ size()
+comment2.text=\nsize\n\nQuery\ method\ for\ the\ size\ of\ the\ team.\n\n@return\ The\ size\ of\ the\ team.\n\n
+comment3.target=String\ getName()
+comment3.text=\ngetName\n\nQuery\ method\ for\ the\ name\ of\ the\ Fantasy\ Player.\n\n@return\ The\ name\ of\ the\ Fantasy\ Player.\n\n
+comment4.target=String\ toString()
+comment4.text=\ntoString\n\nOverrides\ toString\ method\ to\ show\ the\ Fantasy\ Player's\ name\ and\ the\nBasketball\ Players\ on\ his\ team.\n\n@return\ String\ of\ Fantasy\ Player's\ name\ and\ the\ team.\n\n
+numComments=5
